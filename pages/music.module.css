@@ -1,0 +1,31 @@
+.musicContainer {
+  /* Add your container styles here */
+}
+
+.playlist {
+  margin-top: 100px;
+}
+
+.spotifyIframe {
+    border-radius: 12px;
+    width: 80%;
+    height: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.backLink {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 20px;
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+.backLink:hover {
+  color: #708090; /* Change to the color you want when hovered */
+}

@@ -1,0 +1,58 @@
+.container {
+    font-family: 'Helvetica', sans-serif;
+  }
+  
+  .backLink {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 1.5em;
+  }
+
+  .backLink:hover {
+    color: #708090; /* Change to the color you want when hovered */
+  }
+  
+  .tabs {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly; /* This will distribute the space evenly between the tabs */
+    align-items: center; /* This will vertically center the tabs */
+  }
+  
+  .tab {
+    flex: 1;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 10px;
+    padding: 10px 20px; /* Add some padding */
+    background-color: #FFFFFF; /* White background */
+    color: #000000; /* Black text */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Slightly rounded corners */
+    transition: background-color 0.3s ease; /* Transition for hover effect */
+    font-weight: bolder;
+    font-size: 1.5em;
+  }
+  
+  .tab:hover {
+    background-color: #F5F5F5; /* Slightly darker background on hover */
+  }
+  
+  .tab:active {
+    background-color: #E0E0E0; /* Even darker background when active (clicked) */
+  }
+  
+  .art {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .artPiece {
+    margin-bottom: 20px;
+  }
